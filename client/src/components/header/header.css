@@ -1,0 +1,87 @@
+.header {
+  margin-top: 35px;
+}
+.headerWrapper {
+  padding-top: 30px;
+}
+.headerTitles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.headerTitleSm {
+  font-family: "Lora", serif;
+  font-weight: bold;
+  color: rgb(7, 7, 7);
+  font-size: 18px;
+  position: absolute;
+  top: -40px;
+  letter-spacing: 0.05em;
+}
+
+.headerTitleLg {
+  font-family: 'Times New Roman', Times, serif;
+  background-clip: border-box;
+  color: rgb(9, 202, 241);
+  font-size: 90px;
+  font-weight: 600;
+  font-style: normal;
+  position: absolute;
+  top: -20px;
+  font-size: 6rem;
+  padding: 13%;
+}
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #e62e2e 0%,
+    #b40bd2 29%,
+    #1087b6 67%,
+    #51ff00 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  /* text-fill-color: transparent; */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 190px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+/* .headerTitleLg strong{
+  -webkit-animation: glow 2s ease-in-out infinite alternate;
+  -moz-animation: glow 2s ease-in-out infinite alternate;
+  animation: glow 2s ease-in-out infinite alternate;
+} */
+.headerImg {
+  margin-top: 35px;
+  width: 100%;
+  object-fit: cover;
+  height: 500px;
+  background: linear-gradient(rgba(0,0,0,0.5) 33%,rgba(0,0,0,0.1) 67%),url("https://img.freepik.com/premium-photo/maximizing-web-presence-using-search-console-optimize-data-retrieval-generative-ai_971713-930.jpg?w=1380");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 480px) {
+  .headerTitleLg{
+    font-size: 50px;
+    top: 6px
+  }
+  .headerImg{
+    background-position: bottom center;
+  }
+}

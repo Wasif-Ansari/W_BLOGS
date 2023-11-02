@@ -1,0 +1,51 @@
+.about {
+  width: 100vw;
+  height: calc(100vh - 60px);
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5) 33%,
+      rgba(255, 255, 255, 0.6) 67%,
+      rgba(255, 255, 255, 0.5) 100%
+    ),
+    url("https://img.freepik.com/free-photo/toy-bricks-table_144627-48267.jpg?w=996&t=st=1698937717~exp=1698938317~hmac=28442821420ee206377db2176052f4bd143296ceacb90912a9189ba3bf9da733");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.aboutWrapper {
+  width: 80%;
+}
+.aboutTitle {
+  font-size: 38px;
+  font-weight: 550;
+  margin-bottom: 20px;
+  color: rgb(54, 53, 53);
+}
+h4 {
+  font-size: 22px;
+  line-height: 30px;
+}
+
+p {
+  line-height: 28px;
+  font-size: 20px;
+  color: rgb(54, 53, 53);
+}
+p span {
+  font-weight: bold;
+  color: #000;
+}
+h2 {
+  margin: 20px 0;
+}
+button {
+  padding: 10px;
+  border: none;
+  font-size: 18px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: rgb(20, 187, 220);
+  cursor: pointer;
+}
+ 

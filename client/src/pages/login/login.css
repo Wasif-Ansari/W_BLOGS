@@ -1,0 +1,90 @@
+.login {
+  width: 100vw;
+  height: calc(100vh - 60px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.4) 33.3%,
+      rgba(0, 0, 0, 0.1) 67%,
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("https://img.freepik.com/free-photo/3d-floral-bouquet-white-background-generative-ai_191095-1438.jpg?t=st=1698959779~exp=1698963379~hmac=e6b017310ddd6a421957cd68d48d88e281269847e759eea5fc07371ac14b55be&w=900");
+}
+
+.loginWrapper {
+  width: 25%;
+  min-width: 275px;
+  height: 45%;
+  background-color: #fff;
+  margin: auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.loginTitle {
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(4, 175, 166);
+  margin-top: 20px;
+}
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+.loginLabel {
+  font-size: 18px;
+  margin: 15px 0;
+}
+.loginInput {
+  padding: 5px;
+  width: 100%;
+  font-size: 17px;
+  border: none;
+  border-bottom: 1px solid grey;
+}
+.loginInput:focus {
+  outline: none;
+}
+.loginBtn {
+  padding: 8px;
+  margin-top: 30px;
+  border: none;
+  color: #fff;
+  background-color: rgb(8, 184, 184);
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.loginBtn:disabled {
+  cursor: not-allowed;
+}
+.loginRegisterBtn {
+  align-self: flex-start;
+  margin: 20px 20px 0 0;
+  padding: 11px;
+  background-color: rgb(42, 196, 199);
+  font-size: 17px;
+  color: #fff;
+  font-weight: 550;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.btns {
+  align-self: flex-start;
+}
+
+@media screen and (max-width: 480px) {
+  .loginWrapper{
+    margin-left:50px
+  }
+  .loginRegisterBtn{
+    position: absolute;
+  right: 10px
+  }
+}

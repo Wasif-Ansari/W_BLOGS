@@ -1,0 +1,80 @@
+
+.topbar {
+  width: 100%;
+  height: 60px;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  background:url("https://hbr.org/resources/images/article_assets/2018/08/R1805D_CHIN.jpg")
+}
+
+.topbarWrapper {
+  width: 100%;
+  margin: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.topbarLeft {
+  display: flex;
+  align-items: center;
+}
+.topbarIcon {
+  font-size: 40px;
+  color: #fff;
+  margin-right: 13px;
+  cursor: pointer;
+}
+.topbarIcon:hover{
+  color: blue;
+}
+
+.topbarCenter {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+.topbarCenterItem {
+  padding: 13%;
+  margin-right: 12px;
+  color: #fff;
+  cursor: pointer;
+    color:#999;
+    margin-right: 10px;
+    text-decoration:none;
+    border-radius: 4px;
+    transition: background 0.5s linear 0.1s , color 0.5s linear 0s;
+}
+.topbarCenterItem:hover{
+  background: black;
+  color: blue;
+}
+.topbarRight {
+  display: flex;
+  align-items: center;
+}
+.topbarImg {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+@media screen and (max-width:480px) {
+  .topbarLeft{
+    display: none;
+  }
+  .topbarCenterItem{
+    font-size: 13px;
+  }
+  .topbarImg{
+    width: 28px;
+    height: 28px;
+  }
+}
