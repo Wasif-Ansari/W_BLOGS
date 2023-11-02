@@ -14,3 +14,4 @@ A full-stack MERN application. For frontend I have used REACT .For backend I hav
 (https://github.com/Wasif-Ansari/W_BLOGS/assets/110668035/53f86d2e-caac-4af6-b7f8-83ed09b89b6e)
 (https://github.com/Wasif-Ansari/W_BLOGS/assets/110668035/fb318a9a-0935-4ea1-aada-c15d3328f622)
 (https://github.com/Wasif-Ansari/W_BLOGS/assets/110668035/efa3b286-958e-4504-8613-944eb88975d7)
+![1](https://github.com/Wasif-Ansari/W_BLOGS/assets/110668035/4be92d34-6587-4177-90bb-b5e024d4304f)
