@@ -30,7 +30,7 @@ export default function Setting() {
 
       updatedUser.profilePicture = filename;
       try {
-        await axios.post("/upload", data);
+        await axios.post("w-blogs-api.vercel.app/upload", data);
       } catch (err) {}
     }
     try {
