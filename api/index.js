@@ -13,7 +13,7 @@ dotenv.config();
 
 app.use(cors(
   {
-    origin:[""],
+    origin:["w-blogs-client.vercel.app"],
     methods: ["POST", "GET"],
     credentials:true
   ));
