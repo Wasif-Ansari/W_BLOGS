@@ -18,7 +18,7 @@ import NotFound404 from "./pages/notFound404/NotFound404";
 import { useContext } from "react";
 import { Context } from "./context/Context";
 
-
+axios.defaults.withCredentials = true;
 function App() {
   const { user } = useContext(Context);
   return (
