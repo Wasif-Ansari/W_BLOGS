@@ -11,6 +11,13 @@ const path = require("path");
 const app = express();
 dotenv.config();
 
+app.use(cors(
+  {
+    origin:["https://deploy-mern-1whq.vercel.app"],
+    methods: ["POST", "GET"],
+    credentials:true
+  ));
+
 mongoose
   .connect("mongodb+srv://W_BLOGS:bZA0C1gztpwDeM3E@cluster0.b8xb8vs.mongodb.net/?retryWrites=true&w=majority", {
     useNewUrlParser: true,
