@@ -12,7 +12,7 @@ export default function Home() {
 
   useEffect(() => {
     const fetchPosts = async () => {
-      const res = await axios.get("/posts" + search);
+      const res = await axios.get("w-blogs-api.vercel.app/posts" + search);
       setPosts(res.data);
     };
     fetchPosts();
