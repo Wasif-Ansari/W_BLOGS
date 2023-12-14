@@ -13,7 +13,7 @@ export default function Write() {
 
   useEffect(() => {
     const getCategories = async () => {
-      const res = await axios.get("w-blogs-api.vercel.app/categories");
+      const res = await axios.get("categories");
      setCategories(res.data)
     };
     getCategories();
@@ -39,11 +39,11 @@ export default function Write() {
 
       newPost.photo = filename;
       try {
-        await axios.post("w-blogs-api.vercel.app/upload", data);
+        await axios.post("upload", data);
       } catch (err) {}
     }
     try {
-      const res = await axios.post("w-blogs-api.vercel.app/posts", newPost);
+      const res = await axios.post("posts", newPost);
       window.location.replace("/post/" + res.data._id);
     } catch (err) {}
   };
